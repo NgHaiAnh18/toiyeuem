@@ -1,0 +1,27 @@
+.wrapper .traitim{
+    width: 600px;
+    height: 80px;
+    background: hotpink;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+.wrapper .traitim:hover{
+    background: deeppink;
+}
+.wrapper .comeback{
+    width: 30px;
+    height: 18px;
+    background: lightblue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: translate(-250px, 0);
+}

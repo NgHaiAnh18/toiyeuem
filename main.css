@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 500px;
+    
+    color: black;
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.wrapper .meo{
+    width: 400px;
+    transform: translate(-20px, -30px);
+    border-radius: 10%;
+}
+
+.wrapper .qt {
+    width: 600px;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    color: black;
+    transform: translate(-100px, -100px);
+}
+
+.wrapper .qt .cm {
+    font-size: 28px;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    
+    padding : 30px;
+    
+    color: black;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(0px,-5px);
+}
+
+.wrapper .qt .cm:hover {
+    color:lightslategrey;
+}
+
+.wrapper .qt .btn .haha{
+    width: 300px;
+    height: 50px;
+    background:violet;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+}
+.wrapper .qt .btn .haha:hover {
+    background:hotpink;
+}
+.wrapper .btn .haha:active {
+    background: deeppink;
+}
+
+.wrapper .qt .btn .huhu{
+    width: 300px;
+    height: 50px;
+    background:violet;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.wrapper .qt .btn .huhu:hover {
+    background:hotpink;
+}
+.wrapper .qt .btn .huhu:active {
+    background: deeppink;
+}
